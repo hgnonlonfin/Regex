@@ -1,0 +1,15 @@
+From: https://regexr.com/
+#Trouve l'expression régulière qui cherche la seule occurrence du deuxième prénom de Néo.
+regex=A\.
+
+#Trouve l'expression régulière qui cherche la date contenue dans le document. 
+regex=[\d]{2}\/[\d]{2}\/[\d]{4}
+
+#Trouve l'expression qui cherche la note contenue dans le texte.
+regex=\s[\d]{1}\/[\d]{2}
+
+#Trouve l'expression régulière qui renvoie les mots ayant au moins 14 caractères
+regex=[a-zA-Z]{1,14}
+
+#Trouve l'expression régulière qui correspond à l'url de la fiche du fils sur IMDB
+regex=https?://[a-z]{3}\.[a-z]{4}\.[a-z]{3}\/[a-z]{5}\/[\w]{9}
